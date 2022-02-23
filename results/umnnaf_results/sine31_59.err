@@ -1,0 +1,4 @@
+sine31_code.py:42: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  x_test = torch.tensor(toy_data.inf_train_gen(toy, batch_size=nb_test)).to(device)
+sine31_code.py:69: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  x_train = torch.tensor(x).to(device)
