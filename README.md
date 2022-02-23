@@ -5,8 +5,10 @@ This repository contains code used in the experiments for the paper
 > [[arxiv]](https://arxiv.org/abs/2112.15595)
 
 Our code draws heavily from the repository [UMNN](https://github.com/AWehenkel/UMNN), and uses datasets and models from the associated paper 
-> Wehenkel A, Louppe G. "Unconstrained Monotonic Neural Networks." (2019).
+> Wehenkel A, Louppe G. "Unconstrained Monotonic Neural Networks." NeurIPS 2019.
 > [[arxiv]](https://arxiv.org/abs/1908.05164)
+The UMNN repository in turn draws from [FFJORD](https://github.com/rtqichen/ffjord) 
+and [Sylvester normalizing flows for variational inference](https://github.com/riannevdberg/sylvester-flows).
 
 The code has been tested with Pytorch 1.1 and Python3.8.
 
@@ -20,7 +22,15 @@ The folders `models` and `lib` contain libraries to generate the datasets and fi
 
 ## Datasets
 
+Our experiments include datasets considered in the following papers:
+> Wehenkel A, Louppe G. "Unconstrained Monotonic Neural Networks." NeurIPS 2019.
+> [[arxiv]](https://arxiv.org/abs/1908.05164)
 
+> Grathwohl W, Chen R, Bettencourt J, Sutskever I, Duvenaud D. "FFJORD: Free-form continuous dynamics for scalable reversible generative models." ICLR 2019.
+> [[arxiv]](https://arxiv.org/abs/1810.01367)
+
+> Chaudhuri K, Kong Z. "The expressive power of a class of normalizing flow models." AISTATS 2020.
+> [[arxiv]](https://arxiv.org/abs/2006.00392)
 
 ## Cite
 
