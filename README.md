@@ -1,1 +1,3 @@
 # krc-stat
+
+Test
