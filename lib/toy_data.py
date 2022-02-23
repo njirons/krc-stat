@@ -7,10 +7,10 @@ import sklearn.datasets
 from PIL import Image
 import os
 
+#def sine_pdf(samples,k1,k2,a1,a2):
+#    return 1+a1*np.sin(2*np.pi*k1*samples[:,0])+a2*np.sin(2*np.pi*k2*samples[:,1])
 def sine_pdf(samples,k1,k2,a1,a2):
-    return 1+a1*np.sin(2*np.pi*k1*samples[:,0])+a2*np.sin(2*np.pi*k2*samples[:,1])
-#def sine_pdf(samples,k1,k2):
-#    return 1+np.sin(2*np.pi*k1*samples[:,0])*np.sin(2*np.pi*k2*samples[:,1])
+    return 1+np.sin(2*np.pi*k1*samples[:,0])*np.sin(2*np.pi*k2*samples[:,1])
 
 # Dataset iterator
 def inf_train_gen(data, rng=None, batch_size=200):
