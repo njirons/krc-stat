@@ -7,10 +7,11 @@ This repository contains code used in the experiments for the paper
 Our code draws heavily from the [UMNN](https://github.com/AWehenkel/UMNN) repository, and uses datasets and models from the associated paper 
 > Wehenkel A, Louppe G. "Unconstrained Monotonic Neural Networks." NeurIPS 2019.
 > [[arxiv]](https://arxiv.org/abs/1908.05164)
+
 The UMNN repository in turn draws from [FFJORD](https://github.com/rtqichen/ffjord) 
 and [Sylvester normalizing flows for variational inference](https://github.com/riannevdberg/sylvester-flows).
 
-The code has been tested with Pytorch 1.1 and Python3.8.
+The code has been tested with Pytorch 1.1 and Python 3.8.
 
 ## Files
 
